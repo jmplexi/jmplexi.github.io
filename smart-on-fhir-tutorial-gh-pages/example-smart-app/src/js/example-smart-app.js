@@ -124,7 +124,8 @@
     $('#lname').html(p.lname);
     $('#gender').html(p.gender);
     $('#birthdate').html(p.birthdate);
-    $('#height').html(p.height + " Weight: " + p.weight);
+    $('#height').html(p.height);
+    $('#weight').html(p.weight);
     $('#systolicbp').html(p.systolicbp);
     $('#diastolicbp').html(p.diastolicbp);
     $('#ldl').html(p.ldl);
